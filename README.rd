@@ -14,11 +14,17 @@ CC BY-SA 4.0
 
 原著作者：堀本泰弘
 
-=== PGroongaのロゴ
+=== Groonga・PGroonga・Mroonga・Rroongaのロゴ
 
 CC BY 3.0
 
 原著作者：Groongaプロジェクト
+
+=== 株式会社クリアコードのロゴ
+
+CC BY-SA 4.0
+
+原著作者：株式会社クリアコード
 
 == 作者向け
 
