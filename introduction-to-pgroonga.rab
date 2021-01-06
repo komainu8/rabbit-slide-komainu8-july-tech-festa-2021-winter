@@ -1,23 +1,21 @@
-= タイトル
+= PostgreSQLで\n高速・高機能な日本語\n全文検索
 
-# : subtitle
-#    サブタイトル
-# : author
-#    作者
-# : institution
-#    所属
-# : content-source
-#    イベント名
-# : date
-#    2021-01-06
-# : allotted-time
-#    5m
-# : start-time
-#    2021-01-06T14:52:53+09:00
-# : end-time
-#    2021-01-06T14:57:53+09:00
-# : theme
-#    default
+: author
+   堀本泰弘
+: institution
+   株式会社クリアコード
+: content-source
+   July Tech Festa 2021 winter
+: date
+   2021-01-24
+: allotted-time
+   25m
+: start-time
+   2021-01-24T14:20:00+09:00
+: end-time
+   2021-01-24T14:45:00+09:00
+: theme
+   .
 
 = 最初のスライド
 
