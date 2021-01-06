@@ -17,14 +17,8 @@
 : theme
    .
 
-= 最初のスライド
-
-  * 項目1
-  * 項目2
-  * 項目3
-
-= 二番目のスライド
+= 自己紹介
 
   # image
-  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
-  # relative_height = 100
+  # src = images/self-introduction.png
+  # relative_height = 107
