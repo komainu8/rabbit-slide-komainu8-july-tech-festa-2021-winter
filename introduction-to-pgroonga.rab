@@ -25,11 +25,33 @@
 
 = 今日のテーマ
 
-PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索
+PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索\nを実現する
+
+= 今日のテーマ
+
+...の前に
+
+= 全文検索？
 
 = 全文検索？
 
 ((*全*))ての((*文*))書から特定の文字列を\n((*検索*))する
+
+= 全文検索？
+
+  # image
+  # src = images/web-search.png
+  # relative_height = 100
+
+= 全文検索？
+
+  # coderay shell
+
+  % grep PGroonga ./*
+  ./docker-compose.yml:  PGroonga:
+  ./docker-compose.yml:      POSTGRES_DB: PGroonga
+  ./docker-compose.yml:      POSTGRES_PASSWORD: PGroonga
+  ./docker-compose.yml:      POSTGRES_USER: PGroonga
 
 = 全文検索？
 
@@ -58,6 +80,20 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索
 
 * LIKE：組み込み
 * textsearch：組み込み
+* pg_trgm：標準添付
+* pg_bigm：プラグイン
+* PGroonga：プラグイン
+
+= PostgreSQLの全文検索
+
+  # RT
+  delimiter = [|]
+
+  名前 | 日本語 | 速度
+
+  LIKE | ○ | △
+  textsearch | ☓ | ○
+  PGroonga | ○ | ○
 
 = PostgreSQLの全文検索
 
@@ -67,15 +103,6 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索
   id | title | content
 
   1 | Groongaで高速\n全文検索 | 高速に\n全文検索したい！
-
-= LIKE
-
-# coderay sql
-
-  SELECT title FROM entries
-    WHERE
-      title LIKE '%検索%' OR
-      content LIKE '%検索%';
 
 = LIKE
 
@@ -106,6 +133,15 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索
   * 言語毎にモジュールが必要
     * 英語やフランス語のモジュールは組み込み
     * 日本語は別途必要
+
+= LIKE
+
+# coderay sql
+
+  SELECT title FROM entries
+    WHERE
+      title LIKE '%検索%' OR
+      content LIKE '%検索%';
 
 = PGroongaを使った全文検索
 
