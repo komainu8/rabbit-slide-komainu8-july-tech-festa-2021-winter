@@ -47,6 +47,13 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索
   * 例：チャットログ
   * 例：口コミ
 
+= 参考
+
+* Redmineでは既にPGroongaを使った全文検索をするプラグインがある
+
+  * https://github.com/clear-code/redmine_full_text_search
+  * https://www.slideshare.net/kou/redminetokyo12
+
 = PostgreSQLの全文検索
 
 * LIKE：組み込み
