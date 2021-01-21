@@ -134,15 +134,6 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索\nを実現
     * 英語やフランス語のモジュールは組み込み
     * 日本語は別途必要
 
-= LIKE
-
-# coderay sql
-
-  SELECT title FROM entries
-    WHERE
-      title LIKE '%検索%' OR
-      content LIKE '%検索%';
-
 = PGroongaを使った全文検索
 
 = PGroonga？
