@@ -289,7 +289,7 @@ PostgreSQLで\n((*高速・高機能な*))全文検索を実現\nする拡張
 
 = ベンチマーク
 
-# RT
+  # RT
   delimiter = [|]
 
   件数 | LIKE\n速度[ms] | PGroonga\n速度[ms]
