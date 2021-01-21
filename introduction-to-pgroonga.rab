@@ -73,8 +73,8 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索\nを実現
 
 * Redmineでは既にPGroongaを使った全文検索をするプラグインがある
 
-  * https://github.com/clear-code/redmine_full_text_search
-  * https://www.slideshare.net/kou/redminetokyo12
+  * ((<URL:https://github.com/clear-code/redmine_full_text_search>))
+  * ((<URL:https://www.slideshare.net/kou/redminetokyo12>))
 
 = PostgreSQLの全文検索
 
