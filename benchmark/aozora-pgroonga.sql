@@ -58,5 +58,5 @@ CREATE TABLE aozora (
 
 \COPY aozora from benchmark/date/aozora_word_list_utf8.csv with csv header
 SELECT count(*) FROM aozora;
-CREATE INDEX aozora_title ON aozora USION pgroonga("作品名");
-EXPLAIN ANALYZE SELECT "作品名", "姓", "名" FROM aozora WHERE "作品名" LIKE '%ぞう%';
+CREATE INDEX aozora_title ON aozora USING pgroonga("作品名");
+EXPLAIN ANALYZE SELECT "作品名", "姓", "名" FROM aozora WHERE "作品名" &@~ 'ぞう';
