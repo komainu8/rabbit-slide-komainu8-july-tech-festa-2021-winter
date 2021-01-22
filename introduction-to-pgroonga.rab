@@ -53,11 +53,6 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索\nを実現
   ./docker-compose.yml:      POSTGRES_PASSWORD: PGroonga
   ./docker-compose.yml:      POSTGRES_USER: PGroonga
 
-= 全文検索？
-
-  * Web検索(Google等)
-  * ファイル内検索(grep等)
-
 = 全文検索の対象
 
 (('tag:center'))
