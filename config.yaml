@@ -1,12 +1,22 @@
 ---
 id: july-tech-festa-2021-winter
 base_name: introduction-to-pgroonga
-tags: []
-presentation_date: 
-presentation_start_time: 
-presentation_end_time: 
+tags:
+  - rabbit
+  - jtf2021w
+  - fts
+  - search
+  - pgroonga
+  - groonga
+presentation_date: 2021-01-24
+presentation_start_time: 2021-01-24T14:20:00+09:00
+presentation_end_time: 2021-01-24T14:45:00+09:00
 version: 1.0.0
-licenses: []
+licenses:
+  - CC-BY-SA-4.0
+  - CC-BY-SA-3.0-Unported
+  - CC-BY-SA-2.1
+  - CC-BY-3.0
 slideshare_id: 
 speaker_deck_id: 
 ustream_id: 
@@ -14,8 +24,8 @@ vimeo_id:
 youtube_id: 
 author:
   markup_language: :rd
-  name: 
-  email: 
-  rubygems_user: 
+  name: 堀本泰弘 
+  email: horimoto@clear-code.com
+  rubygems_user: komainu8
   slideshare_user: 
   speaker_deck_user: 
