@@ -66,3 +66,20 @@ URL：https://ja.wikipedia.org/
 
   rabbit rabbit-slide-komainu8-july-tech-festa-2021-winter.gem
 
+== ベンチマーク実行方法
+
+=== 準備
+
+docker-composeが必要なので予めインストールする。
+
+データベースのパスワードを要求されるので、
+
+  export PGPASSWORD=PGroonga
+
+を実行しておく。
+
+=== ベンチマーク実行
+
+  git clone git@github.com:komainu8/rabbit-slide-komainu8-july-tech-festa-2021-winter.git
+  cd rabbit-slide-komainu8-july-tech-festa-2021-winter
+  ./exec-benchmark.sh
