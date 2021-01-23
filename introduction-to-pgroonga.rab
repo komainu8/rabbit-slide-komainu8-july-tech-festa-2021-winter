@@ -64,13 +64,6 @@ PostgreSQLで\n((*高速*))・((*高機能*))な日本語全文検索\nを実現
   * 例：チャットログ
   * 例：口コミ
 
-= 参考
-
-* Redmineでは既にPGroongaを使った全文検索をするプラグインがある
-
-  * ((<URL:https://github.com/clear-code/redmine_full_text_search>))
-  * ((<URL:https://www.slideshare.net/kou/redminetokyo12>))
-
 = PostgreSQLの全文検索
 
 * LIKE：組み込み
@@ -378,3 +371,25 @@ PostgreSQLで\n((*高速・高機能な*))全文検索を実現\nする拡張
 = まとめ
 
 PGroongaで\n((*高速高機能*))な\n日本語全文検索が実現できます！
+
+= より詳しく知りたい人
+
+= 参考
+
+* PGroonga自体の解説
+
+  * ((<URL:https://www.slideshare.net/kou/postgresql-conference-japan-2017>))
+
+= 参考
+
+* PHPのマニュアル検索
+  * ((<URL:https://www.slideshare.net/kou/phpconference2017>))
+
+* Redmineのチケットを検索
+  * ((<URL:https://www.slideshare.net/kou/redminetokyo12>))
+  * ((<URL:https://github.com/clear-code/redmine_full_text_search>))
+
+= 参考
+
+* AWSでPGroongaを使う
+  * ((<URL:https://slide.rabbit-shocker.org/authors/komainu8/postgresql-conference-japan-2019/>))
