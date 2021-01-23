@@ -255,12 +255,6 @@ PostgreSQLで\n((*高速・高機能な*))全文検索を実現\nする拡張
 
   3,677,375件 | 128.776 | 0.371
 
-= ベンチマーク
-
-  # image
-  # src = images/benchmark-graph.png
-  # relative_height = 100
-
 = ベンチマークのデータ
 
 * 使用したSQLは以下を参照
