@@ -9,8 +9,8 @@ tags:
   - pgroonga
   - groonga
 presentation_date: 2021-01-24
-presentation_start_time: 2021-01-24T14:20:00+09:00
-presentation_end_time: 2021-01-24T14:45:00+09:00
+presentation_start_time: 2021-01-24 14:20:00 JST
+presentation_end_time: 2021-01-24 14:45:00 JST
 version: 1.0.2
 licenses:
   - CC-BY-SA-4.0
@@ -24,7 +24,7 @@ vimeo_id:
 youtube_id: 
 author:
   markup_language: :rd
-  name: 堀本泰弘 
+  name: Horimoto Yasuhiro 
   email: horimoto@clear-code.com
   rubygems_user: komainu8
   slideshare_user: 
